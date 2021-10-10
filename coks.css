@@ -1,0 +1,69 @@
+@charset "UTF-8";
+body{background-image: url("https://avatars.mds.yandex.net/get-zen_doc/1586459/pub_5dfa15e70a451800b117299c_5dfa1692df94446d2db39b39/scale_1200");
+background-repeat: no-repeat;
+background-attachment: fixed;
+  background-size: 100% 110%;}
+  .red {color:lightblue}
+  .brown{color:lightblue}
+  .white{color:#DCDCDC}
+  .neonText {
+    color: #fff;
+    text-shadow:
+        0 0 7px #cc0000,
+        0 0 10px #cc0000,
+        0 0 21px #cc0000,
+        0 0 42px #cc0000,
+        0 0 82px #cc0000,
+        0 0 92px #cc0000,
+        0 0 102px #cc0000,
+        0 0 151px #cc0000;
+  }
+
+  h1 {
+    font-size: 4.2rem;
+    animation: flicker 1.5s infinite alternate;
+  }
+
+  /* Flickering animation */
+  @keyframes flicker {
+
+    0%, 18%, 22%, 25%, 53%, 57%, 100% {
+
+        text-shadow:
+        0 0 4px #cc0000,
+        0 0 11px #cc0000,
+        0 0 19px #cc0000,
+        0 0 40px #cc0000,
+        0 0 80px #cc0000,
+        0 0 90px #cc0000,
+        0 0 100px #cc0000,
+        0 0 150px #cc0000;
+
+    }
+
+    20%, 24%, 55% {
+        text-shadow: none;
+    }
+  }
+
+
+  /* Additional styling */
+
+  h2 {
+   font-size: 1.8rem;
+  }
+  .container {
+    margin-top: 20vh;
+  }
+
+  body {
+    font-size: 18px;
+    font-family: "Helvetica Neue", sans-serif;
+    background-color: #010a01;
+  }
+
+  h1, h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 400;
+  }
